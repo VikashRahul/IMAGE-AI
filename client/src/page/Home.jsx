@@ -27,7 +27,7 @@ const Home = () => {
       setLoading(true);
   
       try {
-        const response = await fetch('http://image-ai-red.vercel.app/api/v1/post', {
+        const response = await fetch('https://image-ai-red.vercel.app/api/v1/post', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
